@@ -1,0 +1,215 @@
+
+/*  -----------------------------------------Card 1 Start ----------------------------------------- */
+
+
+.Card1{
+  width:48rem;
+  margin-top: 5%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+}
+.card1_cont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+
+.card1_cont:after {
+  content: '';
+  width: 43rem;
+  height: 2px;
+  background: #D2D2D2;
+  position: absolute;
+  bottom: 4rem;
+}
+
+.card1_row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Card1 h2{
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.vert{
+  width: 0.5px;
+  height: 15rem;
+  border: 1px solid #D2D2D2;
+  background-color: #D2D2D2;
+}
+.card1_row h5{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.card1_row p{
+  font-size: 1rem;
+  font-weight: 400;
+}
+.card1_row3 p{
+  
+  color: #006BB8;
+}
+.card1_row5 p{
+  
+  color: #14B514;
+}
+.card1_row5 p:nth-child(4){
+  
+  color: #F44336;
+}
+.card1_arrows{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left:0.5rem;
+  height: 4rem;
+}
+.card1_arrows p{
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+/*  -----------------------------------------Card 1 End ----------------------------------------- */
+
+
+/*  -----------------------------------------Card 2 Start ----------------------------------------- */
+
+.card2{
+  height:27rem;
+  width:40rem;
+  margin-top: 5%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+.card2_cont{
+  height: 22rem;
+  overflow: scroll;
+}
+
+.card2_row{
+  height:5rem;
+  width:37rem;
+  background-color: #ffffff;
+  margin-top:20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0rem 1rem;
+}
+.card2_cont .horiz{
+  margin-top:10px;
+  width: 37rem;
+  height: 2px;
+  margin-left: 0.5rem;
+  background: #D2D2D2;
+}
+
+.card2_col{
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  align-items: center;
+  flex-direction: column;
+}
+.card2_col p{
+  margin: 3px;
+}
+.card2_col:first-child{
+  background-color: #c7c7c7;
+  border-radius: 20%;
+  width: 1rem;
+}
+
+.card2_col:nth-child(2){
+  transform: translateX(-7rem);
+}
+.card2_col:nth-child(3) p:first-child{
+  color: #14B514;
+}
+/*  -----------------------------------------Card 2 End ----------------------------------------- */
+
+/*  -----------------------------------------Card 3 Start ----------------------------------------- */
+
+.card3{
+  height:40rem;
+  width:60rem;
+  margin-top: 5%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+
+}
+.drop_cont{
+  width: 92%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 4%;
+  margin-top: 0.8rem;
+}
+.card3_drop{
+  width: 25%;
+  height: 70%;
+  background-color: #0094FF;
+  border-radius: 10px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+}
+
+
+
+.card3_cont{
+  width: 100%;
+  height: 35rem;
+  overflow: scroll;
+}
+.card3_row{
+  height: 17rem;
+  background-color: #ffffff;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.card3_row .graphdiv{
+  width: 50%;
+  height: 100%;
+  padding-top: 1rem;
+  padding-left: 1rem;
+
+}
+.card3_row .graphdata{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.gdata1, .gdata2, .gdata3, .gdata4, .gdata5{
+  width: 70%;
+  margin-top: 8px;
+}
+.card3_row .graphdata .gdata1, .gdata2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+/*  -----------------------------------------Card 3 End ----------------------------------------- */
