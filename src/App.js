@@ -13,6 +13,9 @@ function App() {
     <Card2/>
     <Card3/>
     <Card1/>
+    <Card4/>
+    <Card5/>
+
 
     </>
   );
