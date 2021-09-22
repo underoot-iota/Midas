@@ -1,6 +1,7 @@
 import React from "react";
 import {  } from "react-chartjs-2";
 import Chart1 from "./Chart1";
+import Card4Drop from "./Card4_row";
 
 export default function Card1() {
   return (
@@ -8,35 +9,10 @@ export default function Card1() {
       <div className="card4">
         <div className="card4_heading">Invest</div>
         <div className="drop_cont4_row">
-          <div className="card4_drop">
-              <div className="drop_name_cont">
-                <div className="drop_name">Crypto</div>
-              </div>
-              <div className="vert_line"></div>
-              <div className="main_info">BTC</div>
-          </div>
-          <div className="card4_drop">
-              <div className="drop_name_cont">
-                <div className="drop_name">Curr.</div>
-              </div>
-              <div className="vert_line"></div>
-              <div className="main_info">BTC</div>
-          </div><div className="card4_drop">
-              <div className="drop_name_cont">
-                <div className="drop_name">Units</div>
-              </div>
-              <div className="vert_line"></div>
-              <div className="main_info">BTC</div>
-          </div><div className="card4_drop">
-              <div className="drop_name_cont">
-                <div className="drop_name">Model</div>
-              </div>
-              <div className="vert_line"></div>
-              <div className="main_info">BTC</div>
-          </div>
-          {/* <div className="card4_drop">Curr.</div>
-          <div className="card4_drop">Units</div>
-          <div className="card4_drop">Model</div> */}
+          <Card4Drop title = "Crypto." value = "BTC"/>
+          <Card4Drop title = "Curr." value = "USD"/>
+          <Card4Drop title = "Units" value = "245"/>
+          <Card4Drop title = "Model" value = "Lorem"/>
         </div>
 
         <div className="card4_cont">
